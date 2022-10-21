@@ -1,0 +1,44 @@
+<section class="contact__area pt-50 pb-120">
+    <div class="container">
+        <div class="row mt-10">
+            <div class="col-xl-12">
+                <div class="basic-pagination text-center">
+                    <div class="section__title-wrapper mb-40">
+                        <h2 class="tp-title">创建钱包</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="before" class="col-xl-12">
+                <div class="basic-pagination text-center">
+                    <h5 class="client__name mb-10">设置密码</h5>
+                    <input id="pswd1" type="password"><a href="#"><span id="eye1">👁️</span></a>
+                    <p></p>
+                    <h5 class="client__name mb-10">验证密码</h5>
+                    <input id="pswd2" type="password"><a href="#"><span id="eye2">👁️</span></a>
+                    <p></p>
+                    <button id="ok" type="button" class="tp-solid-btn">确定</button>
+                    <p></p>
+                    <h5 id="errmsg" class="client__name mb-10"></h5>
+                </div>
+            </div>
+        </div>
+        <div id="after" class="row mt-10" style="display:none">
+            <div class="col-xl-12">
+                <div class="basic-pagination text-center">
+                    <p>
+                        钱包地址：<span id="pubAddress"></span>
+                    </p>
+                    <p>
+                        请将下面这12个单词抄写下来，并妥善保存，这是导入或找回您钱包的唯一依据。
+                        <br>一旦这些词语泄露，您的数字资产将有可能被人盗取，而且无法找回。
+                        <br>请确保已经记下了这些词语，离开此页面后，没有任何方法使其再次显示。
+                    </p>
+                    <p><H3 id="mnemonic" style="color:red"></H3></p>
+                    <div class="contact__btn">
+                        <button id="finish" type="button" class="tp-solid-btn">连接钱包</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>    

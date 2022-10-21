@@ -1,0 +1,50 @@
+<section class="contact__area pt-50 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-7 col-xl-7 col-lg-6">
+                <div class="contact__wrapper">
+                    <div class="section__title-wrapper mb-40">
+                        <h2 class="tp-title">捐赠</h2>
+                        <p>可以给其他会员或公库捐赠指定的代币。</p>
+                    </div>
+                    <div class="section__title-wrapper mb-40">
+                        <select id="selectToken" style="font-size: 20px;">
+                            <option value="HAN">HAN</option>
+                            <option value="DAI">DAI</option>
+                            <option value="MATIC">MATIC</option>
+                        </select>
+                    </div>
+                    <div class="section__title-wrapper mb-40">
+                        <h2 class="tp-title">当前余额<span id="balanceOf" style="color:#FD4766"></span></h2>
+                    </div>
+                    <div class="contact__form">
+                        <div class="row">
+                            <div class="col-xxl-12">
+                                <h5 class="client__name mb-10">捐赠对象</h5>
+                                <div class="privacy-nav mb-55">
+                                    <div id="toObject" class="privacy-nav-wrapper memberCheckList">
+                                        <div class="checkout-form-list create-acc">
+                                            <input name="proposer" type="radio">
+                                            <label></label>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">捐赠金额</h5>
+                                    <input id="amount" type="number" value="">
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__btn">
+                                    <button id="transfer" type="button" class="tp-solid-btn">捐赠</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

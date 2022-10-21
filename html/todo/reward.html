@@ -1,0 +1,62 @@
+<section class="contact__area pt-50 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-7 col-xl-7 col-lg-10">
+                <div class="contact__wrapper">
+                    <div class="section__title-wrapper mb-40">
+                        <h2 class="tp-title">领取奖励和薪酬</h2>
+                        <p>由于区块链基于谁发起谁付费原则，积分虽然由系统发放，但是需要会员自己支付手续费来领取。您可以等计费累积到一定程度后一次性领取。</p>
+                    </div>
+                    <div class="contact__form">
+                        <div class="row">
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">可领取奖励金额：<span id="amount"></span> HAN</h5>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">可领取薪资金额：<span id="salary"></span> HAN</h5>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">合计金额：<span id="total"></span> HAN</h5>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__btn">
+                                    <button id="drawing" type="button" class="tp-solid-btn">领取</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="aboutme-tabs-area pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <ul class="nav nav-tabs ab-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active ab-tab-item" id="todo/myRewardYet" data-bs-toggle="tab" data-bs-target="#rewardYet" type="button" role="tab" aria-controls="rewardYet" aria-selected="true">未领取奖励</button>
+                    </li> 
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link ab-tab-item" id="todo/mySalaryYet" data-bs-toggle="tab" data-bs-target="#salaryYet" type="button" role="tab" aria-controls="salaryYet" aria-selected="false">未领取薪资</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link ab-tab-item" id="todo/myReward" data-bs-toggle="tab" data-bs-target="#rewardGot" type="button" role="tab" aria-controls="rewardGot" aria-selected="false">已领取奖励</button>
+                    </li> 
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link ab-tab-item" id="todo/mySalary" data-bs-toggle="tab" data-bs-target="#salaryGot" type="button" role="tab" aria-controls="salaryGot" aria-selected="false">已领取薪资</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content mt-30" id="myTabContent">
+        </div>
+    </div>
+</div>

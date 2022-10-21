@@ -1,0 +1,75 @@
+<section class="contact__area pt-50 pb-20">
+    <div class="container custome-container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="tp-section-title text-center">
+                    <h3 id="name" class="tpds-title"></h3>
+                </div>
+            </div>
+        </div>
+        <div class="basic-pagination">
+            <nav>
+                <ul>
+                    <li><a href="#" id="goback">&lt;</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+                    <h5 class="client__name mb-10">组长：<span id="leader"></span></h5>
+                </div>
+                <div class="col-xxl-12">
+                    <h5 class="client__name mb-10">组员：</h5>
+                    <div id="members" class="privacy-nav-wrapper memberCheckList">
+                        <div class="checkout-form-list create-acc">
+                            <input name="up" type="radio">
+                            <label></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-12">
+                    <h5 class="client__name mb-10">相关提案：<a href="#" id="proposal"></a></h5>
+                </div>
+                <div class="col-xxl-12">
+                    <h5 class="client__name mb-10">开始日期：<span id="start"></span></h5>
+                </div>
+                <div class="col-xxl-12">
+                    <h5 class="client__name mb-10">积分余额：<span id="balance"></span></h5>
+                </div>
+                <div class="col-xxl-12">
+                    <h5 class="client__name mb-10">功劳积分：<span id="bonus"></span></h5>
+                </div>
+                <div class="col-xxl-12">
+                    <h5 class="client__name mb-10">状态：<span id="state"></span></h5>
+                </div>
+                <div class="col-xxl-12">
+                    <h5 class="client__name mb-10">批准者：<span id="approver"></span></h5>
+                </div>
+                <div id="isLeader" class="col-xxl-12" style="display:none;">
+                    <div class="contact__form-input">
+                        <h5 class="client__name mb-10">支付金额：</h5>
+                        <input id="amount" type="number" value="0">
+                    </div>
+                    <div class="contact__form-input">
+                        <h5 class="client__name mb-10">支付理由：</h5>
+                        <input id="reason" type="text" value="">
+                    </div>
+                    <div class="contact__btn">
+                        <button id="transfer" type="button" class="tp-solid-btn">拨款</button>
+                        <button id="remove" type="button" class="tp-solid-btn">删除组员</button>
+                        <button id="add" type="button" class="tp-solid-btn">添加组员</button>
+                        <button id="dismiss" type="button" class="tp-solid-btn">解散</button>
+                    </div>
+                </div>
+                <div id="isAdmin" class="col-xxl-12" style="display:none;">
+                    <hr>
+                    <div class="contact__btn">
+                        <button id="approve" type="button" class="tp-solid-btn">批准</button>
+                        <button id="success" type="button" class="tp-solid-btn">成功</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

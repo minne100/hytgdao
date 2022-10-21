@@ -1,0 +1,44 @@
+<section class="contact__area pt-50 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-7 col-xl-7 col-lg-6">
+                <div class="contact__wrapper">
+                    <div class="section__title-wrapper mb-40">
+                        <h2 class="tp-title">购买代币</h2>
+                        <p>正式会员可以在这里购买代币，￥<span id="fee"></span>元人民币可购买一组2个DAI和0.3个MATIC。<br>另外需要支付2%作为交易所的手续费。一次最多购买5组。</p>
+                        <p id="notice"></p>
+                    </div>
+                    <div class="widget">
+                        <h6 class="sidebar-title">购买记录</h6>
+                        <ul id="feeHistory" class="n-sidebar-categories">
+                            <li>
+                                <div class="single-category p-relative mb-10">
+                                    <span>无购买记录</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>                    
+                    <div class="contact__form">
+                        <div class="row">
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">购买数量（组）</h5>
+                                    <input id="amount" type="number" value="1">
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__btn">
+                                    <button id="pay" type="button" class="tp-solid-btn">购买</button>
+                                </div>
+                                <div id="after" class="aboutme-image mb-40" style="display:none">
+                                    <h5 id="msg" class="client__name mb-10"></h5>
+                                    <img id="qrcode" src="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

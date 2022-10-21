@@ -1,0 +1,97 @@
+<section class="contact__area pt-50 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-7 col-xl-7 col-lg-10">
+                <div class="contact__wrapper">
+                    <div class="section__title-wrapper mb-40">
+                        <h2 class="tp-title">添加已有提案</h2>
+                        <p>这个功能仅限初始阶段使用，一旦使用正常流程添加了提案之后，这个功能将自动失效。</p>
+                    </div>
+                    <div class="contact__form">
+                        <div class="row">
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">提案名</h5>
+                                    <input id="name" type="text" value="">
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">提案时间(yyyy/mm/dd)</h5>
+                                    <input id="proposalTime" type="text" value="">
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">是否重大提案</h5>
+                                    <input id="isBig" type="checkbox">
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">是否匿名</h5>
+                                    <input id="isAnonymous" type="checkbox">
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <h5 class="client__name mb-10">提案人</h5>
+                                <div class="privacy-nav mb-55">
+                                    <div id="proposers" class="privacy-nav-wrapper memberCheckList">
+                                        <div class="checkout-form-list create-acc">
+                                            <input name="proposer" type="checkbox">
+                                            <label></label>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="col-xxl-12">
+                                <h5 class="client__name mb-10">投票人（非匿名时则为弃权者）</h5>
+                                <div class="privacy-nav mb-55">
+                                    <div id="voters" class="privacy-nav-wrapper memberCheckList">
+                                        <div class="checkout-form-list create-acc">
+                                            <input name="proposer" type="checkbox">
+                                            <label></label>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="col-xxl-12">
+                                <h5 class="client__name mb-10">赞成票</h5>
+                                <div class="privacy-nav mb-55">
+                                    <div id="approvalVoters" class="privacy-nav-wrapper memberCheckList">
+                                        <div class="checkout-form-list create-acc">
+                                            <input name="proposer" type="checkbox">
+                                            <label></label>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="col-xxl-12">
+                                <h5 class="client__name mb-10">反对票</h5>
+                                <div class="privacy-nav mb-55">
+                                    <div id="refuseVoters" class="privacy-nav-wrapper memberCheckList">
+                                        <div class="checkout-form-list create-acc">
+                                            <input name="proposer" type="checkbox">
+                                            <label></label>
+                                        </div>
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__form-input">
+                                    <h5 class="client__name mb-10">提案内容</h5>
+                                    <textarea id="proposal"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-xxl-12">
+                                <div class="contact__btn">
+                                    <button id="addProposal" type="button" class="tp-solid-btn">添加</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
